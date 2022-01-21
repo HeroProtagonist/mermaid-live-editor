@@ -547,6 +547,9 @@ export const initEditor = (monacoEditor): void => {
 			['(', ')'],
 			['{', '}'],
 			['[', ']']
-		]
+		],
+		comments: {
+			lineComment: '%%'
+		}
 	});
 };
